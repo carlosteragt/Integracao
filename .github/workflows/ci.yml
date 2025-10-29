@@ -43,4 +43,4 @@ jobs:
           context: . # O contexto é o diretório atual
           file: ./Dockerfile # O caminho para o Dockerfile
           push: false # "false" significa apenas construir, não enviar
-          tags: ola-devops:latest # Um nome para a imagem
+          tags: ola-devops:latest # Um nome para a imagem 

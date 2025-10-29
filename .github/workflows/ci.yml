@@ -12,6 +12,9 @@ jobs:
   test-and-build:
     # A máquina virtual que o job usará
     runs-on: ubuntu-latest
+    permissions:
+      contents: read # Permissão para fazer checkout do código
+      packages: write # Permissão para FAZER PUSH de pacotes (imagem Docker)
     # Os passos (steps) que o job executará em sequência
     steps:
       # 1. Baixa o código do repositório para a máquina virtual

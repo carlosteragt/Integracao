@@ -17,8 +17,8 @@ jobs:
        - name: Configurar Node.js
          uses: actions/setup-node@v4
          with:
-            node-version: "22" 
-            cache: "npm"
+           node-version: "22" 
+           cache: "npm"
 
        - name: Instalar Dependências
          run: npm install
@@ -32,7 +32,7 @@ jobs:
        - name: Build da Imagem Docker
          uses: docker/build-push-action@v5
          with:
-            context: 
-            file: ./Dockerfile
-            push: false 
-            tags: ola-devops:latest 
+           context: 
+           file: ./Dockerfile
+           push: false 
+           tags: ola-devops:latest 

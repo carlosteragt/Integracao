@@ -24,7 +24,7 @@ jobs:
       - name: Configurar Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "22" # Usamos a mesma versão do Dockerfile
+          node-version: "24" # Usamos a mesma versão do Dockerfile
           cache: "npm" # Habilita o cache do npm para builds mais rápidos
       # 3. Instala todas as dependências (incluindo devDependencies)
       - name: Instalar Dependências

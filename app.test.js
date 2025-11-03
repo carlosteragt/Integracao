@@ -8,3 +8,6 @@ describe("API Olá Mundo", () => {
         expect(response.text).toBe ("Olá Mundo DevOps!");
     });
 });
+
+
+

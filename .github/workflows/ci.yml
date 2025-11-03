@@ -28,7 +28,7 @@ jobs:
           cache: "npm" # Habilita o cache do npm para builds mais rápidos
       # 3. Instala todas as dependências (incluindo devDependencies)
       - name: Instalar Dependências
-        run: npm install
+        run: npm ci
       # 4. Executa os testes
       - name: Rodar Testes
         run: npm test

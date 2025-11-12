@@ -1,11 +1,8 @@
-const express = require("express")
-const app = express()
+const express = require("express");
+const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Olá Mundo DevOps!")
-})
+  res.status(200).send("Olá Mundo DevOps, Proteger a Branch main!");
+});
 
-module.exports = app 
- 
-
-
+module.exports = app;

@@ -10,3 +10,4 @@ describe("API Hello World", () => {
     expect(response.text).toBe("Hello DevOps World, Protect the main branch!");
   });
 });
+
